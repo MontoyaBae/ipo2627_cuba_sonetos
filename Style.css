@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #2225ff;
+  padding: 30px;
+  text-align: center;
+  font-style: serif;
+  font-size: 35px;
+  color: white;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #136b94;
+  padding: 10px;
+  font-style: italic;
+  font-style: courier, monospace;
+  color: white;
+}
+
+footer {
+  background-color:  #2225ff;
+  padding: 10px;
+  font-style: serif;
+  text-align: center;
+  color: white;
+}
+
