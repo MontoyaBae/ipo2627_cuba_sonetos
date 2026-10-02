@@ -4,7 +4,7 @@
 
 
 header {
-  background-color: #2225ff;
+  background-color: #00aeef;
   padding: 30px;
   text-align: center;
   font-style: serif;
@@ -21,16 +21,18 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #136b94;
+  background-color: #00395d;
   padding: 10px;
   font-style: italic;
   font-style: courier, monospace;
   color: white;
+  text-align: center;
 }
 
 footer {
-  background-color:  #2225ff;
+  background-color:  #00aeef;
   padding: 10px;
+  font-size: 20px;
   font-style: serif;
   text-align: center;
   color: white;
