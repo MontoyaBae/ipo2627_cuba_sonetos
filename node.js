@@ -19,7 +19,7 @@ const Modelo = {
     ],
 
     async parsearDesdeRuta(ruta) {
-        // Aquí obtenemos el texto
+        // Aquí cargo los sonetos
         const respuesta = await fetch(ruta);
         const texto = await respuesta.text();
 
