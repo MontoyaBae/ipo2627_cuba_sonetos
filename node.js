@@ -44,6 +44,7 @@ const Modelo = {
             const lMin = l.toLowerCase();
             return l.length > 0 && 
                    !lMin.startsWith('titulo:') && 
+                   !lMin.startsWith('título:') &&
                    !lMin.startsWith('autor:') && 
                    lMin !== 'soneto';
         });
@@ -102,7 +103,7 @@ const Vista = {
         `;
     },
 
-    // Detecta los cambios el el select (desplegable para elegir el soneto)
+    // Detecta los cambios del select (desplegable para elegir el soneto)
     alCambiar(manejador) {
         this.select.addEventListener('change', e => manejador(e.target.value));
     }
